@@ -1,0 +1,10 @@
+/* どんな時でも親BOXの幅いっぱいまで画像を配置 */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+
+/* 画像サイズ以下のカラムサイズになった場合のみ縮小 */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
