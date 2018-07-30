@@ -16,17 +16,30 @@ $gray_blue : #eaf2f4;
 header{
 
   background: $gray_blue;
+  padding-top: 10px;
+  padding-bottom:15px;
   
-   #header_in{
+  
+   h1{
+     margin:0px;
+   }
+  
+   #header_in .container{
     padding-top: 10px;
-    padding-bottom:4px;
+    padding-bottom:15px;
+    height:80px;
   }
 
   @media (max-width: 550px) {
+    
+     #header_in .container{
+       padding:10px 20px 4px 20px;
+     }
+     
     .logo{
       width: 190px;
     }
-
+    
     .navi{
       width:40px;
       float: right;
@@ -175,7 +188,7 @@ header{
   text-align: center;
   padding:80px 0;
   width:100%;
-  height:60px;
+
   //retina_bg
 
   background-image: url("../../images/top/sub_cover.jpg");
@@ -202,6 +215,7 @@ header{
     margin: 0;
     letter-spacing: 0.2rem;
     line-height:40px;
+    padding:0;
     
     @media(max-width:550px){
     font-size:1.6rem;
@@ -218,24 +232,45 @@ header{
 
 #contents {
     padding-top: 35px;
+    font-family:Meiryo;
+    
+  li{
+     color:#626262;
+     font-family:Meiryo;
+  }
     
   #main h2 {
-    color: #42b9d0;
+    color:rgb(66, 185, 208);
     border-bottom: 3px solid #42b9d0;
     font-size: 20px;
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 20px;
+    line-height:25px;
     
-  }
+     @media(max-width:550px){
+        font-size:15px;
+        font-size:1.5rem;
+      }
+    
+  }//#main h2
    
-   #main .news_li li span {
+   #main .news_li li span
+   {
     color: #42b9d0;
-    display: block;
+    display:block;
     font-weight: bold;
     margin-bottom: 3px;
+
     
-  }
+    @media(min-width:551px){
+      display:inline-block;
+      margin-bottom: 0;
+      padding-right: 10px;
+    }
+    
+   
+   }// #main .news_li li span
 
    li{
      list-style: none; 
@@ -244,8 +279,6 @@ header{
 }//#contents
 
  #sidebar {
-    padding-bottom: 20px;
-    padding-right:20px;
     
     .pc_sidemenu {
       

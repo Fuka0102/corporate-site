@@ -2,11 +2,18 @@ html {
   font-size: 62.5%; }
 
 header {
-  background: #eaf2f4; }
-  header #header_in {
+  background: #eaf2f4;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+  header h1 {
+    margin: 0px; }
+  header #header_in .container {
     padding-top: 10px;
-    padding-bottom: 4px; }
+    padding-bottom: 15px;
+    height: 80px; }
   @media (max-width: 550px) {
+    header #header_in .container {
+      padding: 10px 20px 4px 20px; }
     header .logo {
       width: 190px; }
     header .navi {
@@ -112,57 +119,69 @@ header {
     font-weight: 700;
     margin: 0;
     letter-spacing: 0.2rem;
-    line-height: 40px; }
+    line-height: 40px;
+    padding: 0; }
     @media (max-width: 550px) {
       #sub_cover h2 {
         font-size: 1.6rem; } }
 
 #contents {
-  padding-top: 35px; }
+  padding-top: 35px;
+  font-family: Meiryo; }
+  #contents li {
+    color: #626262;
+    font-family: Meiryo; }
   #contents #main h2 {
     color: #42b9d0;
     border-bottom: 3px solid #42b9d0;
     font-size: 20px;
     font-size: 2rem;
     font-weight: 700;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    line-height: 25px; }
+    @media (max-width: 550px) {
+      #contents #main h2 {
+        font-size: 15px;
+        font-size: 1.5rem; } }
   #contents #main .news_li li span {
     color: #42b9d0;
     display: block;
     font-weight: bold;
     margin-bottom: 3px; }
+    @media (min-width: 551px) {
+      #contents #main .news_li li span {
+        display: inline-block;
+        margin-bottom: 0;
+        padding-right: 10px; } }
   #contents li {
     list-style: none; }
 
-#sidebar {
-  padding-bottom: 20px;
-  padding-right: 20px; }
-  @media (max-width: 550px) {
-    #sidebar .pc_sidemenu {
-      display: none; } }
-  #sidebar .pc_sidemenu h3 {
-    color: #42b9d0;
-    font-size: 14px;
-    font-size: 1.4rem;
-    letter-spacing: 0.2rem;
-    font-weight: bold;
-    background-color: #f3f9fb;
-    padding: 15px;
-    margin-bottom: 0px; }
-  #sidebar .pc_sidemenu li {
-    list-style: none;
-    display: block;
-    border-bottom: 1px solid #e5e5e5;
-    background-repeat: no-repeat;
-    background-position: 8px center;
-    margin-bottom: 0px;
-    padding: 10px 10px 10px 20px;
-    background-image: url(../../images/top/side_arrow.png);
-    background-size: 4px 8px;
-    font-size: 15px;
-    font-weight: 400px; }
-  #sidebar .pc_sidemenu a {
-    text-decoration: none; }
+@media (max-width: 550px) {
+  #sidebar .pc_sidemenu {
+    display: none; } }
+#sidebar .pc_sidemenu h3 {
+  color: #42b9d0;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  background-color: #f3f9fb;
+  padding: 15px;
+  margin-bottom: 0px; }
+#sidebar .pc_sidemenu li {
+  list-style: none;
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+  background-repeat: no-repeat;
+  background-position: 8px center;
+  margin-bottom: 0px;
+  padding: 10px 10px 10px 20px;
+  background-image: url(../../images/top/side_arrow.png);
+  background-size: 4px 8px;
+  font-size: 15px;
+  font-weight: 400px; }
+#sidebar .pc_sidemenu a {
+  text-decoration: none; }
 
 footer {
   background-color: #42b9d0;
