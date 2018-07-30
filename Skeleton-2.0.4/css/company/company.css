@@ -14,10 +14,13 @@ html {
 
 header {
   background: #eaf2f4;
-  padding-top: 10px;
-  padding-bottom: 15px; }
+  padding: 0; }
   header h1 {
     margin: 0px; }
+  header #header_in .container {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 80px; }
   @media (max-width: 550px) {
     header #header_in .container {
       padding: 10px 20px 4px 20px; }

@@ -16,18 +16,28 @@ $gray_blue : #eaf2f4;
 header{
 
   background: $gray_blue;
-
-  #header_in{
-    padding-top: 10px;
-    padding-bottom:4px;
-  }
+  padding:0;
   
+   h1{
+     margin:0px;
+   }
+  
+   #header_in .container{
+    padding-top: 10px;
+    padding-bottom:15px;
+    height:80px;
+  }
 
   @media (max-width: 550px) {
+    
+     #header_in .container{
+       padding:10px 20px 4px 20px;
+     }
+     
     .logo{
       width: 190px;
     }
-
+    
     .navi{
       width:40px;
       float: right;
@@ -62,6 +72,7 @@ header{
       }
     }
   } // .sp_navi_li
+  
   @media(min-width:551px){
      .sp_navi{
       display: none;
@@ -157,8 +168,8 @@ header{
       }
       // .li.navi_company a
 
-    }
-    // .pc_navi_li
+    } // .pc_navi_li
+   
   } // @media(min-width:551px)
   
   @media (max-width: 550px) {
@@ -170,7 +181,6 @@ header{
 }
 // header
 
-
   
   
 #cover_area{
@@ -180,13 +190,13 @@ header{
 
   //retina_bg
 
-  background-image: url("../../images/top/cover.jpg");
+  background-image: url("../images/top/cover.jpg");
   background-size: cover;
 
   @media screen and (-webkit-min-device-pixel-ratio:2),
                     (min-resolution: 2dppx){
 
-    background-image: url("../../images/top/cover@2x.jpg");
+    background-image: url("../images/top/cover@2x.jpg");
 
   }
   

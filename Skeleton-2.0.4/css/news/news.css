@@ -2,9 +2,7 @@ html {
   font-size: 62.5%; }
 
 header {
-  background: #eaf2f4;
-  padding-top: 10px;
-  padding-bottom: 15px; }
+  background: #eaf2f4; }
   header h1 {
     margin: 0px; }
   header #header_in .container {
