@@ -22,15 +22,19 @@ header{
      margin:0px;
    }
   
-   #header_in .container{
+    @media (min-width: 551px) {
+  
+  #header_in.container{
+    
     padding-top: 10px;
     padding-bottom:15px;
-    height:80px;
   }
+  
+   }//header_in .container
 
   @media (max-width: 550px) {
     
-     #header_in .container{
+     #header_in.container{
        padding:10px 20px 4px 20px;
      }
      
