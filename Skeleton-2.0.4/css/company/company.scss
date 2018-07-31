@@ -29,7 +29,6 @@ header{
   background: $gray_blue;
   padding:0;
   
-  
    h1{
      margin:0px;
    }
@@ -240,6 +239,7 @@ header{
 #contents {
     padding-top: 35px;
     font-family:Meiryo;
+    padding-bottom:70px;
     
     .row{
         height:602px;
@@ -272,8 +272,8 @@ header{
      .company_title {
     color:rgb(66, 185, 208);
     border-bottom: 3px solid #42b9d0;
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     padding-bottom: 15px;
     margin-bottom:0;

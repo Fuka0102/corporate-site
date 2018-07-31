@@ -2,7 +2,8 @@ html {
   font-size: 62.5%; }
 
 header {
-  background: #eaf2f4; }
+  background: #eaf2f4;
+  padding: 0; }
   header h1 {
     margin: 0px; }
   header #header_in .container {
@@ -125,7 +126,8 @@ header {
 
 #contents {
   padding-top: 35px;
-  font-family: Meiryo; }
+  font-family: Meiryo;
+  padding-bottom: 70px; }
   #contents li {
     color: #626262;
     font-family: Meiryo; }

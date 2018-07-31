@@ -16,8 +16,7 @@ $gray_blue : #eaf2f4;
 header{
 
   background: $gray_blue;
-  
-  
+  padding:0;
   
    h1{
      margin:0px;
@@ -232,6 +231,7 @@ header{
 #contents {
     padding-top: 35px;
     font-family:Meiryo;
+    padding-bottom:70px;
     
   li{
      color:#626262;
