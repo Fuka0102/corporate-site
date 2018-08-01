@@ -8,8 +8,8 @@ header {
     margin: 0px; }
   @media (min-width: 551px) {
     header #header_in.container {
-      padding-top: 10px;
-      padding-bottom: 15px; } }
+      padding-top: 15px;
+      padding-bottom: 10px; } }
   @media (max-width: 550px) {
     header #header_in.container {
       padding: 10px 20px 4px 20px; }
